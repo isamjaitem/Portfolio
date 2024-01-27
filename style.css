@@ -1,0 +1,297 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#header1{
+    width: 100%;
+    background: linear-gradient(90deg,black 70%,#ff9900 30%);
+   
+}
+#header1-logo{
+    color: #ff9900;
+    font-weight: bold;
+    font-size: 25px;
+}
+#navbarNav{
+    margin-left: 100px;
+}
+#navbarNav ul li a {
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+
+}
+#navbarNav ul li a:hover{
+    color: #ff9900;
+}
+#cv {
+    text-align: center;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+#cv button {
+    background-color: transparent;
+    color: black;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 5px;
+  cursor: pointer;
+}
+#content{
+    width: 100%;
+    background: linear-gradient(90deg,black 70%,#ff9900 30%);
+}
+.content-left{
+    padding-top: 180px;
+}
+.content-left h3{
+    color: white;
+}
+.content-left h1{
+    color: white;
+}
+.content-left h1 span{
+    color: #ff9900;
+}
+.content-left h2{
+    color: #ff9900;
+}
+.content-left p{
+    color:white;
+    font-size: 15px;
+}
+.content-left button{
+    background: transparent;
+    color: #ff9900;
+    border: 2px solid #ff9900;
+    font-weight: bold;
+    width: 120px;
+    border-radius: 5px;
+}
+#content1{
+    display: flex;
+}
+.content-right img {
+    width: 400px;
+    margin-left: 240px;
+}
+
+@media (max-width: 765px){
+    #content1{
+display: flex;
+flex-direction: column;
+
+}
+}
+#about {
+    width: 100%;
+    background: black;
+}
+#row-about{
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+}
+#about-left {
+    background: #ff9900;
+    text-align: center;
+    border: black solid 2px;
+    border-style:outset;
+    }
+#about-left img {
+width: 350px;
+}
+
+#about-right h4 {
+color: white;
+}
+#about-right h4 span {
+    border-bottom: 1px solid #ff9900;
+}
+#about-right p {
+color: white;
+}
+#about-right p span {
+color:#ff9900;
+}
+#about-right h4 {
+color: white;
+}
+#about-right button {
+    background: white;
+    color: black;
+    padding: 5px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
+#about-right button:hover {
+background: #ff9900;
+}
+#sevices {
+    width: 100%;
+    background: black;
+}
+.services-data h2{
+color: white;
+border-bottom: #ff9900 solid 2px;
+display: inline;
+margin-bottom: 50px;
+}
+.services-data p {
+    color: white;
+    margin-top: 15px;
+}
+
+.data-services p {
+    color: black;
+    font-weight: bold;
+}
+.data-services p i {
+    font-size: 20px;
+}
+.data-services p  {
+    font-size: 15px;
+}
+.data-services {
+    background: white;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+.data-services:hover {
+    background:#ff9900
+}
+#resume {
+    width: 100%;
+    background: black;
+    
+}
+.resume-info {
+    text-align: center;
+    border-bottom: 2px solid #ff9900;
+    margin-bottom: 20px;
+}
+.resume-info p {
+    color: #ff9900;
+    font-weight: bold;
+    font-size: 25px;
+}
+.resume-info h1 {
+color: white;
+}
+#resume-left p {
+color: white;
+}
+#resume-left i {
+    color: #ff9900;
+}
+
+#resume-left span {
+    color: #ff9900;
+}
+#mywork {
+    width: 100%;
+    background: black;
+}
+.myworkdata {
+    text-align: center;
+    color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#card-pic {
+    transition:0.4s ease-in-out;
+    cursor: pointer;
+    }
+
+#card-pic:hover{
+transform: translateY(-5px);
+}
+#contact{
+    width: 100%;
+    background: black;
+    padding-top: 20px;
+}
+.input-data{
+   display: flex;
+   flex-direction: column;
+}
+#contact-left h1{
+    color: white;
+    display: inline;
+    border-bottom: 2px solid #ff9900; 
+}
+#contact-left p{
+    color: white;
+    margin-top: 15px;
+}
+.input-data input  {
+    background: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid #ff9900; 
+    margin-bottom: 20px;
+    width: 450px;
+}
+.input-data textarea  {
+    background: transparent;
+    border: 2px solid #ff9900; 
+    margin-bottom: 20px;
+    width: 450px;
+}
+.input-data button  {
+    background: transparent;
+    border: 2px solid #ff9900; 
+    margin-bottom: 20px;
+    width: 450px;
+    color: #ff9900;
+    font-weight: bold;
+}
+
+#contact-right h1{
+    color: white;
+    display: inline;
+    border-bottom: 2px solid #ff9900;  
+}
+#contact-right p{
+    color: white;
+    margin-top: 15px;
+}
+
+#contact-right p i {
+    color:#ff9900;
+    margin-top: 15px;
+}
+.social i{
+    margin-left: 10px;
+}
+#footer {
+    width: 100%;
+    background: #ff9900;
+} 
+.footer-data{
+ text-align: center;      
+}
+.footer-data h1,p{
+    color: white;
+}
+.footer-data p span{
+    color:blue;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
